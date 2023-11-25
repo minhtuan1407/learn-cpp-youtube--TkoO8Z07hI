@@ -19,6 +19,7 @@ int main() {
     std::cout << *ptName << std::endl;
     std::cout << *ptAge << std::endl;
     std::cout << *ptFreePizzas << " - " << freePizzas << std::endl;
+    std::cout << *(ptFreePizzas + 1) << " - " << freePizzas + 1 << std::endl;
 
     return 0;
 }
