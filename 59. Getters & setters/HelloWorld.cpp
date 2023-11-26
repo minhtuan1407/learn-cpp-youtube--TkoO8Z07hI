@@ -4,7 +4,9 @@ class Stove{
     private:
         int temperature = 0;
     public:
-
+    Stove(int temperature) {
+        setTemperature(temperature);
+    }
     int getTemperature() {
         return temperature;
     }
@@ -26,11 +28,9 @@ int main() {
     // getter = function that makes a private attibute READABLE
     // setter = function that makes a private attibute EDITABLE
 
-    Stove stove;
+    Stove stove(0);
 
     // stove.temperature = 1000000;
-
-    stove.setTemperature(1000000);
 
     std::cout << "The temperature setting is: " << stove.getTemperature() << std::endl;
 
