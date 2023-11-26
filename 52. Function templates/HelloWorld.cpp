@@ -12,6 +12,9 @@ int main() {
     //                      Can be used to generate as many overloaded functions
     //                      as needed, each using different data types
 
+    //                      Ex. "It's like a cookie cutter ..."
+    //                      "Cookie are all the same shape, but the dough can be different"
+
     std::cout << max(1, 2.1) << std::endl;
 
     return 0;
